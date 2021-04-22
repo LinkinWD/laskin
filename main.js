@@ -53,7 +53,6 @@ summa.addEventListener('click', ()=> {
     }
 })
 
-
 /* funktiot */
 function päivitä() {
     nykyinenLukuInput.value = nykyinenLuku

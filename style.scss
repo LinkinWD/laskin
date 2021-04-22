@@ -3,6 +3,17 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: linear-gradient(90deg, rgba(244, 67, 54, 1) 0%, rgba(139, 195, 74, 1) 100%);
+}
+form {
+	margin-top: 200px;
+}
 .container {
 	display: grid;
 	grid-template-columns: repeat(4, 60px);
@@ -19,12 +30,21 @@
 button {
 	height: 60px;
 	width: 60px;
+	background-color: rgba($color: #ffffff, $alpha: .2);
+	font-size: 1.3rem;
+}
+button:hover {
+	background-color: rgba($color: #ffffff, $alpha: .6);
+}
+button:focus {
+	outline: none;
 }
 input {
+	font-family: 'Audiowide', cursive;
 	width: 240px;
 	text-align: end;
 	padding: 4px;
-	font-size: 1.1rem;
+	font-size: 1.3rem;
 	background-color: black;
 	color: chartreuse;
 	margin-bottom: -7px;
